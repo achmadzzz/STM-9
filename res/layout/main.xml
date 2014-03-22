@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/dashboard_manage_keys"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="manageKeysOnClick"
+        android:text="@string/dashboard_manage_keys" />
+
+    <Button
+        android:id="@+id/dashboard_my_keys"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="myKeysOnClick"
+        android:text="@string/dashboard_my_keys" />
+    
+    <Button
+        android:id="@+id/dashboard_encrypt"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="encryptOnClick"
+        android:text="@string/dashboard_encrypt" />
+    
+    <Button
+        android:id="@+id/dashboard_decrypt"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="decryptOnClick"
+        android:text="@string/dashboard_decrypt" />
+</LinearLayout>
